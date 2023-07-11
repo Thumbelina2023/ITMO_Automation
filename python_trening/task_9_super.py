@@ -17,7 +17,7 @@ class BasePage:
         self.base_url = base_url
 
     def visit(self):
-        return f'Выполен вход по урлу + {self.base_url}'
+        return f'Выполен вход по урлу  {self.base_url}'
 
 class HomePage(BasePage):
     def __init__(self, base_url):
